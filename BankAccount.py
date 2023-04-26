@@ -14,7 +14,7 @@ class Saving(BankAccount):
             self.balance+=amount
             print("Your Balance is:",amount)
         else:
-           print("Enter peoper Account Type")
+           return exit()
     def widhdraw(self):
         amount=float(input("Enter the amount to withdraw from saving acc:"))
         if self.balance>=amount:
