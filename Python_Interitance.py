@@ -13,7 +13,7 @@ class SoftwareEngineer(Employee):
         super().__init__(name, age, salary)
         self.level = level
     def work(self):
-        print(f"{self.name} is working in Goodle and he is {self.level} and salary is {self.salary}")
+        print(f"{self.name} is working in Google and he is {self.level} and salary is {self.salary}")
     def debug(self):
         print(f"{self.name} is debugging")
 class Designer(Employee):   # subclass or child class
